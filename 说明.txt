@@ -1,0 +1,15 @@
+禁止安装任何版本的Exceed，如有，先卸载
+1 
+安装Xming，都按照默认配置。
+可安装Xming-font，也可不安装
+2
+首次启动Xming先运行XLaunch，一切都按默认。
+3
+启动Xming，会见到右下角的托盘图表。
+
+4
+安装EPICSWindowsTools1.43-x86，比如到D:\EPICSWindowsTools，勾选全部选项。
+添加环境变量Path=D:\EPICSWindowsTools（若按照上述路径安装），以能够通过终端命令启动medm等。
+启动medm测试。
+5
+以后每次启动medm前必须启动Xming，所以建议可以加入系统启动项。
